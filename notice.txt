@@ -1,0 +1,12 @@
+ouvrir un terminal dans le dossier ou est classé le code
+
+
+python3 comptage_actions_techniques.py chemin_fichier.npz
+
+
+chemin_fichier.npz renvoi vers l'adresse du fichier duquel on veut compter les AT.
+On va utiliser un fichier traité dans le processus de détermination du squelette : xxxxxxxxxx_cropped_segmented
+
+On obtient un csv avec :
+- le nombre d'AT du fichier complet
+- le nombre d'AT par tranche de 10 minutes
